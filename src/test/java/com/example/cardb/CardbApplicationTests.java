@@ -12,12 +12,5 @@ import static org.assertj.core.api.Assertions.assertThat;
 @SpringBootTest
 class CardbApplicationTests {
 
-	@Autowired
-	private CarController controller;
-
-	@Test
-	void contextLoads() {
-		assertThat(controller).isNotNull();
-	}
 
 }
